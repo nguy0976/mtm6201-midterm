@@ -15,19 +15,18 @@
     animation-iteration-count: 2;
     animation-direction: alternate;  
 }
-.start:hover {
-    background-color: yellow;
-    width: 250px;
-}
-/*-----------------------------------*/
-  
-  @keyframes example {
+@keyframes example {
     0%   {left:0px; top:0px;}
     25%  {left:200px; top:0px;}
     50%  {left:200px; top:200px;}
     75%  {left:0px; top:200px;}
     100% {left:0px; top:0px;}
   }
+.start:hover {
+    background-color: yellow;
+    width: 250px;
+}
+/*-----------------------------------*/
 /* all web page font and text color */
 body {
     font-family: 'Raleway', sans-serif;
@@ -56,7 +55,7 @@ body {
     }
     .menu nav ul li {
         padding-bottom: 10px;
-        margin: 10px 0
+        margin: 10px 0;
     }
     .menu ul li a {
         text-decoration: none;
