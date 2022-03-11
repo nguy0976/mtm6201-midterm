@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+.start a:hover {
+    animation:jump 1s infinite;
+  }
+
 /* all web page font and text color */
 body {
     font-family: 'Raleway', sans-serif;
