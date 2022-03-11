@@ -61,6 +61,7 @@ body {
         text-decoration: none;
         font-size: 16px;
         color: #f2f2f2;
+        margin-right: 100px;
     }
 }
 /* banner tablet and desktop */
@@ -82,6 +83,10 @@ body {
     .menu nav ul li {
         margin: 0 20px;
     }    
+    .menu nav ul li a {
+        font-size: 24px;
+        font-weight: 600;
+    }
 }
 /* finish banner section */
 
@@ -637,20 +642,70 @@ body {
         color: #f2f2f2;
     }
     
-    .bar_content {
-        justify-content: space-around;
-        padding: 50px 0;
-    }
-    .bar_image {
-        position: relative;
-        flex-basis: 50%;
+    .bar {
         width: 100%;
-        height: 300px;
-        min-height: unset;
+        height: 500px;
+        padding: 50px 50px;
+    }    
+    
+    .bar_picture {
+        float: left;
+        padding: 30px;
     }
-    .bar_image img {
-        position: relative;
-    }   
+    .bar_text {
+        padding: 30px;
+    }
+    .bowling {
+        background: #f2f2f2;
+        width: 100%;
+        height: 500px;
+        padding: 50px 50px
+    }
+    .bowling_picture {
+        float: right;
+        padding: 30px;
+    }
+    .bowling_text {
+        padding: 30px;
+    }
+    .fitness {
+        width: 100%;
+        height: 500px;
+        padding: 0 50px;
+    }
+    .fitness_image {
+        float: left;
+        padding: 30px;
+    }
+    .fitness_text {
+        padding: 30px;
+    }
+    .indoor {
+        background: #f2f2f2;
+        width: 100%;
+        height: 500px;
+        padding: 50px 50px;
+    }
+    .climbing {
+        float: right;
+        padding: 30px;
+
+    }
+    .sub {
+        width: 100%;
+        height: 50px;
+        background: #3c3b3a;
+        text-align: center;
+        color: white
+    }
+    .thankyou {
+        text-align: center;
+    }
+    .thankyou img {
+        padding: 30px 50px
+    }
+
+
 }
 
 /* contact page */
