@@ -5,10 +5,29 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
-.start a:hover {
-    animation:jump 1s infinite;
+/* animation */
+.scroll {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;  
+}
+.start:hover {
+    background-color: yellow;
+    width: 250px;
+}
+/*-----------------------------------*/
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
   }
-
 /* all web page font and text color */
 body {
     font-family: 'Raleway', sans-serif;
